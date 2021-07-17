@@ -1,9 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export default function Accordian() {
-  return (
-    <div>
-      Accordian Component
-    </div>
-  )
+  return <div>Accordian Component New</div>;
 }
