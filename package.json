@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "preconstruct build"
+    "build": "preconstruct build",
+    "dev": "preconstruct dev"
   },
   "repository": {
     "type": "git",
