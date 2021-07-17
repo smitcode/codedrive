@@ -2,11 +2,11 @@
   "name": "codedrive",
   "version": "2.0.1",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "preconstruct build",
-    "postinstall": "preconstruct dev"
+    "dev":"preconstruct dev"
   },
   "repository": {
     "type": "git",
