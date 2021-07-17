@@ -4,9 +4,38 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "preconstruct build",
+    "postinstall": "preconstruct dev"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "codedrive": "^1.0.0",
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.0.6",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-annotate-pure-calls": "0.4.0",
+    "babel-plugin-dev-expression": "0.2.2",
+    "babel-plugin-macros": "^3.1.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@preconstruct/cli": "^2.1.0",
+    "lerna": "^4.0.0"
+  },
+  "preconstruct": {
+    "packages": [
+      "packages/*"
+    ]
+  }
 }
