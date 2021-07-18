@@ -3,6 +3,11 @@
     "packages/*"
   ],
   "version": "1.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true,
   "command": {
     "publish": {
       "conventionalCommits": true,
