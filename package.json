@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "preconstruct build",
-    "dev": "preconstruct dev"
+    "dev": "preconstruct dev",
+    "publish":"lerna run publish"
   },
   "repository": {
     "type": "git",
