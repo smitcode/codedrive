@@ -21,6 +21,11 @@
     "react": "^16.8.0 || 17.x",
     "react-dom": "^16.8.0 || 17.x"
   },
+  "files": [
+    "README.md",
+    "dist",
+    "styles.css"
+  ],
   "eslintIgnore": [
     "node_modules",
     "dist"

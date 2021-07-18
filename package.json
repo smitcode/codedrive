@@ -32,6 +32,10 @@
     "@preconstruct/cli": "^2.1.0",
     "lerna": "^4.0.0"
   },
+  "eslintIgnore": [
+    "node_modules",
+    "packages/*/**/dist"
+  ],
   "preconstruct": {
     "packages": [
       "packages/*"
