@@ -3,9 +3,8 @@
   "version": "1.0.1",
   "description": " React accordion component",
   "author": "",
+  "main": "dist/codedrive-accordian.cjs.js",
   "license": "MIT",
-  "main": "dist/accordian.cjs.js",
-  "module": "dist/accordion.esm.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/smitcode/codedrive.git",
