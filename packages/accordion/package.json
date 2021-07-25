@@ -1,6 +1,6 @@
 {
   "name": "@smitdev/accordian",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": " React accordion component",
   "author": "",
   "main": "dist/codedrive-accordian.cjs.js",
@@ -29,5 +29,5 @@
     "node_modules",
     "dist"
   ],
-  "gitHead": "18b434a35bba1770dad41bb2cc0268fa449adb3f"
+  "gitHead": "64f413885ca53584ecec34e261bbc13be360e3a2"
 }
