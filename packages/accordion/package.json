@@ -1,5 +1,5 @@
 {
-  "name": "@codedrive/accordian",
+  "name": "@smitdev/accordian",
   "version": "1.0.4",
   "description": " React accordion component",
   "author": "",
@@ -29,5 +29,5 @@
     "node_modules",
     "dist"
   ],
-  "gitHead": "cb3936fa1ebabb76143e85faf6726a4fe3c77b5c"
+  "gitHead": "18b434a35bba1770dad41bb2cc0268fa449adb3f"
 }
