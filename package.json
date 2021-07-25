@@ -7,7 +7,7 @@
     "build": "preconstruct build",
     "postinstall": "preconstruct dev",
     "fix":"preconstruct fix",
-    "publish": "lerna run publish"
+    "publish": "lerna publish --force-publish"
   },
   "repository": {
     "type": "git",
