@@ -7,7 +7,6 @@
     "access": "public"
   },
   "npmClient": "yarn",
-  "useWorkspaces": true,
   "command": {
     "publish": {
       "conventionalCommits": true,
