@@ -1,12 +1,11 @@
 {
-  "name": "codedrive",
+  "name": "@smitdev/codedrive",
   "version": "2.0.6",
-  "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "preconstruct build",
     "postinstall": "preconstruct dev",
-    "fix":"preconstruct fix",
+    "fix": "preconstruct fix",
     "publish": "lerna publish --force-publish"
   },
   "repository": {
@@ -42,5 +41,11 @@
     "packages": [
       "packages/*"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/smitcode/codedrive/issues"
+  },
+  "homepage": "https://github.com/smitcode/codedrive#readme",
+  "main": "babel.config.js",
+  "description": ""
 }
