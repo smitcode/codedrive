@@ -1,6 +1,6 @@
 {
   "name": "@codedrive/accordian",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": " React accordion component",
   "author": "",
   "main": "dist/codedrive-accordian.cjs.js",
